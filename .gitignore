@@ -6,8 +6,8 @@
 .env
 
 # Ignore input and output files in case they aren't public yet:
-input/*
-output/*
+# Note, moved these to directory-specific ignore files per
+# https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/
 
 # Run log includes output filenames; ignore that too:
 run_log.csv
